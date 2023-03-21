@@ -3,13 +3,12 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.header{
-    min-height: 100vh;
+.lead{
+    min-height: 10vh;
     width: 100%;
-    background-image: linear-gradient(rgba(144,12,63,0.2),rgba(88,24,69,0.2)),url(images/WIZARD.png);
+    background-image: linear-gradient(rgba(144,12,63,0.2),rgba(88,24,69,0.2)), url(images/Purple.png);
     background-size: cover;
     background-position: center;
-    position: relative;
     
 }
 nav{
@@ -74,23 +73,7 @@ nav-links,ul:hover::after,li:hover::after{
     
     
 }
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    width: fit-content;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position:relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    color: 1px solid rgb(207, 161, 33);
-    background: rgba(207,161,33);
-    transition: 0.5s ease-in-out;
-}
+
 
  
 nav .material-icons{
@@ -139,76 +122,52 @@ div .material-icons{
     
     }
 
-/*---- About ----*/
-.About{
+    /*---- Enchanting ----*/
+.ENCHANT{
     width: 80%;
     margin:auto;
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
 }
-.About h1 {
+.ENCHANT h1 {
     font-size: 36px;
     font-weight: 600;
 
 }
-.About p {
+
+.ENCHANT p {
     font-size: 18px;
     font-weight: 300;
     color: rgb(150, 150, 150);
     line-height: 22px;
     padding: 10px;
+    text-align: left;
 }
 .row {
     justify-content: space-between;
     margin-top:5%;
     display: flex;
+    flex-direction: column;
 }
-.About-col{
+.ENCHANT-col{
     flex-basis: 30%;
     background: #fff7e7;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-.About-col h3 {
-    font-size: 16px;
+.ENCHANT-col h3 {
+    font-size: 24px;
     margin-top: 5%;
-    text-align: center;
-    font-weight: 600
-    ;
+    text-align: left;
+    font-weight: 600;
+    padding: 10px;
+    
 }
 
-.About-col:hover{
+.ENCHANT-col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 
-}
-@media(max-width: 900px) {
-    .row{
-        flex-direction: column;
-    }
-}
-
-
-
-/*------------ BottomBar --------------------------------*/
-
-.BottomBar{
-    min-height: 20vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(144,12,63),rgba(88,24,69));
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    
-}
-.BottomBar-Disc,p{
-    color: #fff;
-    text-align: center;
-    
-    
-   
-    
-    
 }
